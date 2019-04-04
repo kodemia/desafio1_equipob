@@ -1,16 +1,48 @@
-/* * {
-  background: goldenrod;
-} */
+head{
 
-.container{
-    border:2px solid black;
+}
+      /* <!-- hugo aqui va tu parte de registro --> */
+div.registro{
+
+}
+      /* <!-- angel aqui debe ser la navbar --> */
+nav{
+
+}
+      /* <!-- Carlos aqui va la ubicacion --> */
+div.ubicacion{
+
 }
 
-.row{
-    background: peru;
-    padding: 10px
-}
+/* termina head */
 
-.col{
-    background: skyblue
+
+
+
+/* empieza main */
+main{
+
 }
+      /* <!-- Carlos aqui va el select--> */
+div.select{
+
+}
+      /* <!-- noemi aqui entras tu, aqui debes colocar tus cards --> */
+div.card{
+
+}
+      /* <!-- carlos vas de nuevo tu aqui con dos cosas la seleccion de hojas y la flecha hacia arriba --> */
+      div.selectorPages{
+
+      }
+      div.flechita{
+
+      }
+
+/* termina main */
+/* empieza footer */
+
+footer{
+
+}
+      /* <!-- aqui entra Ale --> */
