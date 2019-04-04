@@ -1,0 +1,16 @@
+/* * {
+  background: goldenrod;
+} */
+
+.container{
+    border:2px solid black;
+}
+
+.row{
+    background: peru;
+    padding: 10px
+}
+
+.col{
+    background: skyblue
+}
