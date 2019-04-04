@@ -1,16 +1,110 @@
-/* * {
-  background: goldenrod;
-} */
-
-.container{
-    border:2px solid black;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.row{
-    background: peru;
-    padding: 10px
+.bgcolor-one {
+  background-color: #082b49 !important;
+}
+.bgcolor-two {
+  background-color: #07243e !important;
+}
+.bgcolor-three {
+  background-color: #051c2f !important;
 }
 
-.col{
-    background: skyblue
+head {
 }
+/* <!-- hugo aqui va tu parte de registro --> */
+div.registro {
+}
+/* <!-- angel aqui debe ser la navbar --> */
+nav {
+}
+/* <!-- Carlos aqui va la ubicacion --> */
+div.ubicacion {
+}
+
+/* termina head */
+
+/* empieza main */
+main {
+}
+/* <!-- Carlos aqui va el select--> */
+div.select {
+}
+/* <!-- noemi aqui entras tu, aqui debes colocar tus cards --> */
+div.card {
+}
+/* <!-- carlos vas de nuevo tu aqui con dos cosas la seleccion de hojas y la flecha hacia arriba --> */
+div.selectorPages {
+}
+div.flechita {
+}
+
+/* termina main */
+
+/* empieza footer */
+/* <!-- aqui entra Ale --> */
+footer {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 7vh;
+  font-size: 15px;
+}
+
+footer .p25 {
+  padding-top: 25vh;
+  padding-bottom: 16.5vh;
+}
+
+/* IMPORTANTE ES EL TAMAÑO DEL CONTENEDOR */
+footer .footer-Top {
+  width: 70vw;
+  margin: auto;
+}
+
+/* logo */
+footer .footer-Top .imagen-footer {
+  margin-bottom: 55px;
+}
+
+footer .footer-Top .pm3 {
+  margin-bottom: 30px;
+}
+
+/* adress */
+footer .footer-Top address {
+  width: 48%;
+}
+
+footer .footer-Top .position-right {
+  margin-right: 1.8vw;
+}
+
+footer .footer-Top .position-left {
+  margin-left: 1.8vw;
+}
+
+/* social media iconos */
+footer .footer-Top .social-wrapper img {
+  width: 40px;
+  filter: invert(1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+/* empieza la parte de abajo del footer */
+
+footer .footer-Bottom {
+  width: 70vw;
+  margin: auto;
+}
+footer .footer-Bottom .copyright_wrap {
+  color: #aeb1b3;
+}
+footer .footer-Bottom .copyright_wrap a {
+  color: #47c9ec;
+}
+
+footer .footer-Bottom .copyright_wrap p {
+  margin: 0;
+}
+
