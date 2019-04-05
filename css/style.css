@@ -28,8 +28,199 @@ div.ubicacion {
 /* termina head */
 
 /* empieza main */
-main {
+
+
+main .up a{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 2px solid #34c1e7;
+    padding: 7px 15px;
+    border-radius: 50%;
+    background: #34c1e7;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+ 
 }
+
+main button{
+    background: #f7fafb;
+    padding: 23px;
+    font-family: arial;
+    color: #5b5f62;
+    font-size: 13px;
+    border: none;
+    margin-left: 2px;
+    position: relative;
+    border-bottom: 2px solid #34c1e7;
+   
+   
+}
+
+main .boton-up {
+   
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     
+}
+
+
+
+
+
+
+main .default{
+    border-bottom: 2px solid #34c1e7;
+    padding-bottom: 23px;
+    
+}
+
+
+.boton-up #all button:before {
+
+content:"1";
+padding: 5px 10px;
+border-radius: 50%;
+background: #34c1e7;
+color: #fff;
+position: absolute;
+top: -35px;
+left: 16px;
+transition: all 400ms ease;
+visibility: hidden;
+}
+
+
+.boton-up #all button:hover:before {
+top: -5px;
+visibility: visible;
+    
+}
+
+
+.boton-up #dogs button:before {
+
+content:"1";
+padding: 5px 10px;
+border-radius: 50%;
+background: #34c1e7;
+color: #fff;
+position: absolute;
+top: -35px;
+left: 24px;
+transition: all 400ms ease;
+visibility: hidden;
+}
+
+
+.boton-up #dogs button:hover:before {
+top: -5px;
+visibility: visible;
+
+
+}
+
+
+
+.boton-up #pets button:before {
+
+content:"2";
+padding: 5px 10px;
+border-radius: 50%;
+background: #34c1e7;
+color: #fff;
+position: absolute;
+top: -35px;
+left: 40px;
+transition: all 400ms ease;
+visibility: hidden;
+}
+
+
+.boton-up #pets button:hover:before {
+top: -5px;
+visibility: visible;
+
+
+}
+
+
+
+.boton-up #cats button:before {
+
+content:"3";
+padding: 5px 10px;
+border-radius: 50%;
+background: #34c1e7;
+color: #fff;
+position: absolute;
+top: -35px;
+left: 23px;
+transition: all 400ms ease;
+visibility: hidden;
+}
+
+
+.boton-up #cats button:hover:before {
+top: -5px;
+visibility: visible;
+
+
+}
+
+
+.boton-up #adoption button:before {
+
+content:"1";
+padding: 5px 10px;
+border-radius: 50%;
+background: #34c1e7;
+color: #fff;
+position: absolute;
+top: -35px;
+left: 35px;
+transition: all 400ms ease;
+visibility: hidden;
+}
+
+
+.boton-up #adoption button:hover:before {
+top: -5px;
+visibility: visible;
+
+
+}
+
+
+.boton-up #small button:before {
+
+content:"2";
+padding: 5px 10px;
+border-radius: 50%;
+background: #34c1e7;
+color: #fff;
+position: absolute;
+top: -35px;
+left: 40px;
+transition: all 400ms ease;
+visibility: hidden;
+}
+
+
+.boton-up #small button:hover:before {
+top: -5px;
+visibility: visible;
+
+
+}
+
+
+
 /* <!-- Carlos aqui va el select--> */
 div.select {
 }
