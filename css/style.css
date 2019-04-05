@@ -19,6 +19,7 @@ div.registro {
 }
 /* <!-- angel aqui debe ser la navbar --> */
 nav {
+  padding-left: 40;
 }
 /* <!-- Carlos aqui va la ubicacion --> */
 div.ubicacion {
