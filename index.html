@@ -9,27 +9,143 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <head>
       <!-- hugo aqui va tu parte de registro -->
+      <!-- Hola Hugo, quizas te interese esto: https://getbootstrap.com/docs/4.3/components/modal/  este igualmente https://getbootstrap.com/docs/4.3/components/forms/  y este otro https://getbootstrap.com/docs/4.3/components/navbar/ Hugo este es el color de fondo .bgcolor-one {
+  background-color: #082b49 !important;
+} ya esta en css para que se agregue como clase -->
+
       <div class="registro"></div>
       <!-- angel aqui debe ser la navbar -->
+      <!-- Hola Angel quizas te interesen estos enlaces: https://getbootstrap.com/docs/4.3/components/dropdowns/#menu-items igual este otro https://getbootstrap.com/docs/4.3/components/collapse/ o https://getbootstrap.com/docs/4.3/components/dropdowns/  y este otro https://getbootstrap.com/docs/4.3/components/navbar/ -->
       <nav></nav>
       <!-- Carlos aqui va la ubicacion -->
+      <!-- Hola Carlos quizas esto te interesa https://getbootstrap.com/docs/4.3/components/breadcrumb/ -->
       <div class="ubicacion"></div>
     </head>
     <main>
       <!-- Carlos aqui va el select-->
+      <!-- quizas para esto te interese esto: https://getbootstrap.com/docs/4.3/components/badge/ y esto https://getbootstrap.com/docs/4.3/components/button-group/ lo veo medio forzado posiblemente encuentres algo mejor -->
       <div class="select"></div>
       <!-- noemi aqui entras tu, aqui debes colocar tus cards -->
-      <div class="card"></div>
+      <!-- creo que pudieras encontrar de utilidad este enlace https://getbootstrap.com/docs/4.3/components/card/ y quizas te guste algo asi: -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/pets1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example</p>
+          <p class="card-text">Some quick example</p>
+          <p class="card-text">Some quick example</p>
+          <p class="card-text">Some quick example</p>
+        </div>
+      </div>
       <!-- carlos vas de nuevo tu aqui con dos cosas la seleccion de hojas y la flecha hacia arriba -->
+<!-- Carlos igual pudiera interesarte esto: https://getbootstrap.com/docs/4.3/components/pagination/ -->
+
       <div class="selectorPages"></div>
       <div class="flechita"></div>
     </main>
+
     <footer>
-      <!-- aqui entra Ale -->
+      <!-- aqui entra Ale p-5  -->
+      <div class="bgcolor-two text-white p25">
+        <div class="footer-Top">
+          <div class="text-center imagen-footer">
+            <img
+              src="../desafio1_equipob/img/logo_footer.png"
+              class="rounded"
+              alt="..."
+            />
+          </div>
+          <div class="contact-address pm3 d-flex justify-content-center">
+            <address class=" position-right text-right">
+              San Francisco, CA 94102, US<br />
+              1234 Some St
+            </address>
+            <address class=" position-left">
+              Phone: 1.800.123.4567<br />
+              Fax:1.800.123.4566
+            </address>
+          </div>
+          <div class="footer w-100 ">            
+            <div class="social-wrapper p-3 d-flex justify-content-center pm3">
+             <div class="slide-wrapper">
+               <div class="icon-wrapper"> 
+              <img
+                class="cursor-pointer ml-2 mr-2"
+                src="img/facebook-icon.png"
+                alt=""
+              />
+              <img
+              class="cursor-pointer ml-2 mr-2"
+              src="img/facebook-icon.png"
+              alt=""
+            />
+            </div>
+          </div>
+          <div class="slide-wrapper">
+              <div class="icon-wrapper"> 
+              <img
+                class="cursor-pointer ml-2 mr-2"
+                src="img/twitter-icon.png"
+                alt=""
+              />
+              <img
+              class="cursor-pointer ml-2 mr-2"
+              src="img/twitter-icon.png"
+              alt=""
+            />
+            </div>
+          </div>
+          <div class="slide-wrapper">
+              <div class="icon-wrapper">
+              <img
+                class="cursor-pointer ml-2 mr-2"
+                src="img/linkedin-icon.png"
+                alt=""
+              />
+              <img
+              class="cursor-pointer ml-2 mr-2"
+              src="img/linkedin-icon.png"
+              alt=""
+            />
+            </div>
+          </div>
+          <div class="slide-wrapper">
+              <div class="icon-wrapper">
+              <img
+                class="cursor-pointer ml-2 mr-2"
+                src="img/instagram-icon.png"
+                alt=""
+              />
+              <img
+                class="cursor-pointer ml-2 mr-2"
+                src="img/instagram-icon.png"
+                alt=""
+              />
+            </div>
+          </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="p-4 bgcolor-three text-white">
+        <div class="footer-Bottom">
+          <div class="copyright_wrap text-center">
+            <p>
+              Themerex &copy 2018 All Rights Reserved
+              <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="js/jquery-3.3.1.min.js"></script>
